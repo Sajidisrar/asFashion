@@ -11,7 +11,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <CartProvider>
         <div className="App">
           <Header />
